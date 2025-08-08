@@ -8,7 +8,7 @@ export const platformData: Horizon = {
         title: "Self Serve signup and payment flow",
         description:
           "Allow users to sign up and manage their subscriptions directly from the Harness UI.",
-        tag: [{ value: "Access Control" }],
+        tag: [{ value: "" }],
       },
       {
         title: "Audit log streaming in NDJSON format",
@@ -181,6 +181,20 @@ export const platformData: Horizon = {
           "Add a custom message on the login screen in SMP. Typically used for Legal disclaimers.",
         tag: [{ value: "SMP" }],
         link: "/docs/self-managed-enterprise-edition/advanced-configurations/configure-custom-signin-message"
+      },
+      {
+        title: "Terraform module support for Dashboard management",
+        description:
+          "Create and manage Dashboards and Dashboard folders using Terraform Harness provider.",
+        tag: [{ value: "Dashboard" }],
+        link: "https://registry.terraform.io/providers/harness/harness/latest/docs/resources/platform_dashboards"
+      },
+      {
+        title: "API support for Dashboard management",
+        description:
+          "Create and manage Dashboards and Dashboard folders using Harness APIs.",
+        tag: [{ value: "Dashboard" }],
+        link: "tag/folders/#operation/create_folder"
       },
     ],
   }, 
